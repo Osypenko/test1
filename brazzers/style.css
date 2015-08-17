@@ -1,0 +1,147 @@
+* {
+	border-sizing: border-box;
+	font-family: Calibri;
+}
+
+body {
+	margin: 0;
+	background-color: #EEEEEE;
+}
+
+li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.nomargin {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+.socialCover {
+	background-color: #757575;
+	height: 70px;
+	line-height: 70px;
+	font-size: 1.25em;
+	color: white;
+	overflow: hidden;
+}
+
+.socialText {
+	margin-left: 80px;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 20px;
+	float: left;
+}
+
+.socialIcons {
+	float: left;
+	height: 32px;
+	width: 300px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+
+.facebook, .twitter, .vk {
+	margin-left: 10px;
+	width: 32px;
+	height: 32px;
+	float: left;
+}
+
+.facebook {
+	background-image: url(fb.png);
+}
+
+.twitter {
+	background-image: url(tw.png);
+}
+
+.vk {
+	background-image: url(vk.png);
+}
+
+.listsCover {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #EEEEEE;
+	overflow: hidden;
+}
+
+.cites {
+	color: black;
+	float: left;
+}
+
+.windows {
+	list-style-image: url(ms_blue.png);
+}
+
+.office {
+	list-style-image: url(office.png);
+}
+
+.wphone {
+	list-style-image: url(wphone.png);
+}
+
+.mobDev {
+	list-style-image: url(mobile.png);
+}
+
+.skype {
+	list-style-image: url(skype.png);
+}
+
+.bing {
+	list-style-image: url(bing.png);
+}
+
+.msStore {
+	list-style-image: url(ms_store.png);
+}
+
+.downloads, .supportAndAbout, .resources{
+	float: left;
+	width: 20%;
+}
+
+.downloads, .supportAndAbout, .resources{
+	margin-left: 5%;
+}
+
+.downCover {
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+}
+
+.countryLang{
+	float: left;
+}
+
+.logo {
+	height: 30px;
+	float: right;
+	color: grey;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.downList {
+	clear: both;
+}
+
+ul.downCat li {
+	display: inline;
+	margin-left: 15px;
+}
+
